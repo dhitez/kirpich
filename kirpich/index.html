@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<script defer src="js/script.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<article style="margin-bottom: 10px;">
+		<select>
+			<option selected value="red">Красный</option>
+			<option value="blue">Синий</option>
+			<option value="white">Белый</option>
+		</select>
+	<button onclick="AddElem(document.querySelector('select'))">Добавить кирпич
+	</button>
+	<button onclick="Remove(this)" id="RemoveBrick">Убрать стену</button>
+	<button onclick="Remove(this)" id="Remove">Снести стену</button>
+	</article>
+	<main></main>
+</body>
+</html>
